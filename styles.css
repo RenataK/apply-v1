@@ -226,6 +226,19 @@ label {
   height: 12px;
 }
 
+.w-checkbox-input--inputType-custom.w--redirected-checked {
+  background-color: #3898ec;
+  background-image: url("https://d3e54v103j8qbb.cloudfront.net/static/custom-checkbox-checkmark.589d534424.svg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-color: #3898ec;
+}
+
+.w-checkbox-input--inputType-custom.w--redirected-focus {
+  box-shadow: 0 0 3px 1px #3898ec;
+}
+
 body {
   background-color: var(--white);
   color: var(--dark-slate-grey);
@@ -328,6 +341,20 @@ label {
   margin-left: -1.25rem;
   margin-right: .5rem;
   transition: all .2s;
+}
+
+.form-checkbox-icon.w--redirected-checked {
+  box-shadow: none;
+  background-color: #a770ef;
+  background-size: 16px 16px;
+  border-width: 1px;
+  border-color: #000;
+}
+
+.form-checkbox-icon.w--redirected-focus {
+  box-shadow: none;
+  background-color: #1d2127;
+  border-color: #a770ef;
 }
 
 .form-checkbox-label {
